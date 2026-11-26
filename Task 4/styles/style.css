@@ -5,17 +5,35 @@
 }
 
 header {
-    background-color:#1e293b;
-    color: white;
+    background-color:#f1f5f9;
+    color: #1e293b;
     padding: 20px;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #1e293b;
+    border-radius: 10px;
 }
 
-.title {
-    font-size:  30px;
+header h1 {
+    font-size: 28px;
 }
 
-svg {
+nav {
+    display: flex;
+    gap: 45px;
+}
+
+nav a {
+    color: #1e293b;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+img {
     max-width: 100%;
 }
